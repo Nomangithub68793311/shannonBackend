@@ -11,8 +11,9 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
 ///connecting to database
 connectDB()
-const server = app.listen(process.env.PORT, () => {
-    console.log(`listening to port${process.env.PORT}`)
+const port = process.env.PORT || 5000;
+const server = app.listen(port, () => {
+    console.log(`listening to port${port}`)
 
 })
 app.use(Router)
