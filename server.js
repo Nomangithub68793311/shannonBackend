@@ -16,12 +16,3 @@ const server = app.listen(process.env.PORT, () => {
 
 })
 app.use(Router)
-// const io = socket(server)
-
-// io.on('connection', (socket) => {
-//     console.log(`connected to the socket`)
-//     io.on('disconnect', () => {
-//         console.log(`disconnected to the socket`)
-
-//     })
-// })
