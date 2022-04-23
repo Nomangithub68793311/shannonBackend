@@ -1,13 +1,18 @@
 const nodemailer = require("nodemailer");
 const transporter = nodemailer.createTransport({
-    service: 'gmail',
+    service: 'Gmail',
     host: 'smtp.gmail.com',
-    port: 587,
+    port: 465,
+    secure: true,
 
     auth: {
         user: "kha9647@gmail.com", // generated ethereal user
         pass: "youtube123%*", // generated ethereal password
     },
+    tls: {
+        // do not fail on invalid certs
+        rejectUnauthorized: false
+    }
 });
 const sendSms = (email, name) => {
     // console.log(email, name)
