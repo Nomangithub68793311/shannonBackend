@@ -1,3 +1,5 @@
+
+//// a parmanent solution to email https://stackoverflow.com/questions/25693280/nodemailer-with-gmail-service-not-working-on-heroku
 const express = require('express')
 const cors = require('cors')
 const dotenv = require('dotenv')

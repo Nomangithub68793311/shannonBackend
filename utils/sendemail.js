@@ -66,18 +66,22 @@ const sendSms = (email, name) => {
                  </td>
              </tr>
              <tr >
-                 <td style="padding: 30px; text-align: center;">
+                 <td style="padding: 10px; text-align: center;">
                      <p style="margin-bottom: 25px;font-size: 18px; font-weight: 400;">Contact Us:</p>
+                     <p style="margin-bottom: 0px;font-size: 15px; font-weight: 200;">Bangladesh office</p>
+                     <p style="margin-bottom: 10px;font-size: 15px; font-weight: 200;">Rana Ahamed</p>
                      <a href="https://api.whatsapp.com/send?phone=01743136127" class="btn" style="text-decoration: none; background-color: #5E6FF3; padding: 10px 50px; color: #ffffff;border-radius: 20px;font-size: 20px; font-weight: 600;">Whatsapp (Bangladesh):+8801743136127</a>
                      <div  style="margin: 20px;"></div>
+                   
+                     
+                     <a href="mailto:rana.buddy@gmail.com"  class="btn" style="text-decoration: none; background-color: #5E6FF3; padding: 10px 50px; color: #ffffff;border-radius: 20px;font-size: 20px; font-weight: 600;">Email:rana.buddy@gmail.com
+                     </a>
+                     <p style="margin-top: 40px;font-size: 15px; font-weight: 200;">Cyprus office</p>
+                     <p style="margin-bottom:10px;font-size: 15px; font-weight: 200;">Moshiur Rahman</p>
                      <a href="https://api.whatsapp.com/send?phone=+35796257724" class="btn" style="text-decoration: none; background-color: #5E6FF3; padding: 10px 50px; color: #ffffff;border-radius: 20px;font-size: 20px; font-weight: 600;">Whatsapp (Cyprus):+35796257724
                      </a>
-                     <p style="margin-bottom: 25px;font-size: 18px; font-weight: 400;">Email Us:</p>
-                     <a href="mailto:nobinxm@gmail.com
-                     " class="btn" style="text-decoration: none; background-color: #5E6FF3; padding: 10px 50px; color: #ffffff;border-radius: 20px;font-size: 20px; font-weight: 600;">Email:nobinxm@gmail.com
-                     </a>
-                     <p style="margin-bottom: 25px;font-size: 18px; font-weight: 400;">Email Us:</p>
-                     <a href="mailto:rana.buddy@gmail.com" class="btn" style="text-decoration: none; background-color: #5E6FF3; padding: 10px 50px; color: #ffffff;border-radius: 20px;font-size: 20px; font-weight: 600;">Email:rana.buddy@gmail.com</a>
+                     <div  style="margin: 20px;"></div>
+                     <a href="mailto:nobinxm@gmail.com" class="btn" style="text-decoration: none; background-color: #5E6FF3; padding: 10px 50px; color: #ffffff;border-radius: 20px;font-size: 20px; font-weight: 600;">Email:rana.buddy@gmail.com</a>
                  </td>
              </tr>
              <tr>
